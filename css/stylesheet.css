@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 110%;
+  background: linear-gradient(141deg, #2f6382 0%, #377397 51%, #27536c 75%);
+  margin: 0;
+  color: #fff;
+}
+
+/* header */
+.header-background {
+  text-align: center;
+  color: white;
+  overflow: auto;
+  margin-top: 0;
+  margin-left: 20%;
+  top: 0;
+  width: 80%;
+  padding-top: 15%;
+  padding-bottom: 35%;
+  background:  white url(https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 100%;
+  background-position: center;
+  background-size: 100%;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+  text-align: center;
+  font-size: x-large;
+  background-color: #000000;
+  background-color: #00000066;
+  color: white;
+  border: 3px solid #f1f1f1;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+}
+
+.button {
+  background-color: #4ea5d8;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4% 10%;
+  border-radius: 12px;
+}
+
+.button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.intro {
+  margin-bottom: 1%;
+}
+
+.highlighter {
+  color: #4ea5d8;
+  padding-bottom: 1%;
+}
+
+.quote {
+  font-family: serif;
+  font-style: italic;
+}
+
+/* header end */
+
+/* sidebar */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  color: #000;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+}
+
+nav {
+  margin-right: 0%;
+}
+
+a.menu-item:link,
+a.menu-item:visited {
+  display: block;
+  left: 0;
+  color: black;
+  width: 137%;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a.menu-item:hover {
+  background-color: #555;
+  color: white;
+}
+
+a.menu-item:active {
+  background-color: #4ea5d8;
+}
+
+.bulletless {
+  list-style-type: none;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  margin-top: 15%;
+  margin-left: 6%;
+}
+.picture-aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+i.menu-icon {
+  padding-right: 3vh;
+}
+
+/* sidebar end */
+
+/* main content */
+.content-box {
+  padding: 1px 16px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  height: 250px;
+  margin: 95% 0% 95% 25%;
+}
+
+.section {
+  padding-top: 10% 0% 10% 0%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+p {
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+ul {
+  padding-bottom: 5%;
+}
+
+a.linktext:link,
+a.linktext:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a.linktext:hover {
+  color: #4ea5d8;
+}
+
+.subsection-icon {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 1%;
+  align-self: center;
+}
+
+hr {
+  border-color: #fff;
+  border-radius: 15px;
+  border-style: solid;
+  width: 30%;
+  float: left;
+}
+
+hr.sm {
+  width: 15%;
+}
+
+.skills-progress {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0% 5% 0%;
+}
+
+p.skill-title {
+  padding-bottom: 0%;
+  font-size: medium;
+}
+
+.skills {
+  text-align: right;
+  padding: 3px 10px 3px;
+  color: white;
+}
+
+.progress {
+  background-color: #2196f3;
+  border-radius: 15px;
+}
+
+.html {
+  width: 70%;
+  
+}
+.css {
+  width: 55%;
+}
+.typing {
+  width: 80%;
+}
+.fastlearner {
+  width: 98%;
+}
+
+.progress-container {
+  width: 100%; 
+  background-color: #ddd;
+  border-radius: 15px;
+}
+
+/* main content end */
+
+/* footer */
+
+footer {
+  background-color: #585858;
+  color: white;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contacts {
+  font-size: 2rem;
+}
+
+/* footer end */
